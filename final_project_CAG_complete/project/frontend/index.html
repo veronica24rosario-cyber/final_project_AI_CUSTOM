@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Examen Final IA - CAG Lab</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <section class="hero">
+        <p class="eyebrow">Modulo 3 · Examen Final</p>
+        <h1>CAG Lab</h1>
+        <p class="lead">Integra memoria contextual persistente en un asistente que ya recupera conocimiento del curso.</p>
+      </section>
+
+      <section class="workspace">
+        <form id="ask-form" class="card ask-card">
+          <label for="user-id">Usuario</label>
+          <input id="user-id" name="user_id" value="student-01" />
+
+          <label for="question">Pregunta</label>
+          <textarea id="question" name="question" rows="5" placeholder="Pregunta sobre RAG, CAG, SDD, BDD o TDD"></textarea>
+
+          <button type="submit">Preguntar al asistente</button>
+        </form>
+
+        <aside class="card context-card">
+          <p class="panel-label">Panel CAG</p>
+          <h2>Contexto pendiente</h2>
+          <p>Este panel es un punto de partida. Debe mostrar contexto guardado cuando implementes <code>/api/context</code>.</p>
+          <pre id="context-output">Sin contexto cargado.</pre>
+        </aside>
+      </section>
+
+      <section class="card response-card">
+        <p class="panel-label">Respuesta</p>
+        <pre id="answer-output">Todavia no hiciste una pregunta.</pre>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>

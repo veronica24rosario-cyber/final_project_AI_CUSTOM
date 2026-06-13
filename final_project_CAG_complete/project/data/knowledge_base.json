@@ -1,0 +1,22 @@
+[
+  {
+    "id": "sdd-bdd-tdd",
+    "title": "SDD, BDD y TDD",
+    "content": "El curso usa SDD para disenar antes de construir, BDD para expresar comportamiento observable y TDD para escribir pruebas antes de implementar."
+  },
+  {
+    "id": "rag",
+    "title": "RAG",
+    "content": "RAG recupera fragmentos de una base documental para responder con conocimiento externo al modelo."
+  },
+  {
+    "id": "cag",
+    "title": "CAG",
+    "content": "CAG usa contexto persistente, como preferencias, historial y decisiones del usuario, para mejorar respuestas futuras."
+  },
+  {
+    "id": "jarvis",
+    "title": "Tony Stark y Jarvis",
+    "content": "La IA debe funcionar como Jarvis: asiste y acelera, pero la persona dirige, decide y verifica."
+  }
+]
